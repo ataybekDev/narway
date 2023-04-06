@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,400;1,700&family=Noto+Sans:wght@100;200;300;400;500;600;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Rubik:wght@300;400;500;600;700;800;900&family=Tenor+Sans&display=swap');
+@import "globol";
+@import "mixsin";
+
+
+#header{
+  padding: 40px 0;
+  .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &--title{
+       @include center();
+      h1{
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 21px;
+        color: #FFFFFF;
+        padding-left: 11px;
+      }
+    }
+    &--nav{
+      a{
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        color: #FFFFFF;
+        margin-left: 65px;
+      }
+    }
+    ion-icon{
+      font-weight: 900;
+      font-size: 28px;
+      color: #FFFFFF
+    }
+  }
+}
+#narway{
+  padding: 80px 0;
+  h2{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .norway{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &--icons{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      ion-icon{
+        font-weight: 900;
+        font-size: 25px;
+        color: #FFFFFF;
+        margin-bottom: 30px;
+      }
+    }
+    h1{
+      text-align: center;
+      font-weight: 700;
+      font-size: 250px;
+      line-height: 305px;
+      //background: linear-gradient(47.06deg, #000000 -3.87%, rgba(255, 255, 255, 0) 36.89%), #FFFFFF;
+      color: #FFFFFF;
+      top: -100px;
+    }
+    &--line{
+      width: 2px;
+      height: 326px;
+      background: rgba(255, 255, 255, 0.3);
+      border-radius: 3px;
+      flex-direction: column;
+    }
+  }
+
+}
+#block{
+  padding: 20px 0;
+  .block{
+    @include cent();
+    &--line{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      h2{
+        margin-bottom: 40px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+        transform: rotate(-90deg);
+        //transform: rotate(-90.49deg);
+      }
+      &__one{
+        width: 3px;
+        height: 38px;
+        background: #FFFFFF;
+        //transform: rotate(-90.49deg);
+      }
+    }
+    &--sqiore{
+      display: flex;
+      align-items: center;
+      width: 417px;
+      height: 108px;
+      background: rgba(255, 255, 255, 0.1);
+      filter: blur(0,5px);
+      border-radius: 5px;
+      //@include center();
+      ion-icon{
+        font-weight: 400;
+        font-size: 22px;
+        color: rgba(255, 255, 255, 0.3);
+        margin: 0 37px;
+      }
+      &__title{
+        h1{
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 24px;
+          color: #FFFFFF;
+        }
+        h2{
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 20px;
+          color: #FFFFFF;
+          opacity: 0.4;
+        }
+      }
+    }
+    &--number{
+      &__icons{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        ion-icon{
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 20px;
+          color: #FFFFFF;
+          opacity: 0.4;
+          margin-right: 40px;
+        }
+
+      }
+      &__data{
+        h1{
+          font-weight: 600;
+          font-size: 32px;
+          line-height: 39px;
+          color: #FFFFFF;
+          margin-top: 28px;
+          span{
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 22px;
+            color: #FFFFFF;
+            opacity: 0.3;
+          }
+
+
+        }
+      }
+    }
+  }
+}
